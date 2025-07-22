@@ -1,4 +1,5 @@
 {
-  "model_name": "another",
-  "version": "v3"
+  "model": "demo_model_6",
+  "uri": "s3://bucket/model_6.pkl",
+  "registered_on": "2025-07-22T12:57:56.341155"
 }
