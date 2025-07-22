@@ -1,18 +1,10 @@
 stages:
+  - build
   - test
-  - deploy
 
 variables:
-  AWS_SECRET_ACCESS_KEY: fd342d9bbb5cdedb436efd014c790cfe1fed16c9
-  AWS_ACCESS_KEY_ID: 966498b8d07fe51574e78d6eb218f0ca6d702309
-  SECRET_TOKEN: 96d4b500-f4c5-4c12-9f4d-3079f8cd0c6d
+  SECRET_API_KEY: FAKE_API_KEY_4GHC3H2ACC6A3E99D995
 
-test:
-  stage: test
+build:
   script:
-    - echo 'Running tests...'
-
-deploy:
-  stage: deploy
-  script:
-    - echo 'Deploying...'
+    - echo 'Building Project 6'
